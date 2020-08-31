@@ -5,7 +5,7 @@ import Core from '../pages/Core';
 import About from '../pages/About';
 export const Router: FC = () => (
 <Switch>
-      <Route path="/" component={Home}/>
+      <Route path="/" exact component={Home}/>
       <Route path="/Home" component={Home}/>
       <Route path="/About" component={About}/>
       <Route path="/Core" component={Core}/>

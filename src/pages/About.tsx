@@ -1,5 +1,6 @@
 import React,{FC} from 'react';
 import Navbar from '../components/Navbar/';
+
 const About:FC=()=>(
 <div>
     About
