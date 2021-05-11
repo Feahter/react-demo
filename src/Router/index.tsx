@@ -1,8 +1,15 @@
+/*
+ * @Author: your name
+ * @Date: 2021-05-11 17:25:32
+ * @LastEditTime: 2021-05-11 18:05:46
+ * @LastEditors: your name
+ * @Description: In User Settings Edit
+ * @FilePath: /github/react-demo/src/Router/index.tsx
+ */
 import {Switch, Route,Redirect } from 'react-router-dom';
 import React,{ FC } from 'react';
-import Home from '../pages/Home';
-import Core from '../pages/Core';
-import About from '../pages/About';
+import {Home,About,Core} from '../pages'
+
 export const Router: FC = () => (
 <Switch>
       <Route path="/" exact component={Home}/>
